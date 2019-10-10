@@ -11,12 +11,14 @@ header {
 	justify-content: space-around;
 	height: 15vh;
 	width: 100%;
-	margin: auto;
+	margin: auto 0;
     background-color: black;
 }
 
 .logo-container {
-	display: flex;
+	display: inline-flex;
+	padding: 0 0 50px;
+	position: relative;
 	justify-content: flex-start;
 }
 
@@ -89,66 +91,9 @@ nav a:hover {
 }
 
 .right {
-	display: flex;
-	padding: 65px;
-	justify-content: center;
+	padding: 56px;
+	align-items: flex-end;
 }
-
-/**
-.container {
-	margin: auto;
-	display: flex;
-	color: #444;
-	background-color: lightgray;
-}
-
-.title {
-	width: 100%;
-	display: flex;
-	padding: 0 0 0 100px;
-	color: black;
-	background-color: lightgray;
-}
-
-.left {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	flex: 0 0 50%;
-	justify-content: center;
-	padding: 5px;
-
-}
-
-.left-top {
-	flex: 50%;
-	padding: 5px 80px;
-}
-
-.left-top img{
-	width: 50%;
-}
-
-.left-btm {
-	flex: 50%;
-	padding: 0 100px;
-}
-
-.left-btm img{
-	width: 50%;
-}
-
-.right {
-	flex: 1;
-	margin-right: 250px;
-	padding: 150px;
-	color: black;
-}
-
-.right img {
-	width: 400%;
-}
-**/
 
 @media screen and (max-width: 990px) {
 	.nav-links {
