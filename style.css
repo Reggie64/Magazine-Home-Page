@@ -17,7 +17,7 @@ header {
 
 .logo-container {
 	display: inline-flex;
-	padding: 0 0 50px;
+	padding: 0 50px 50px;
 	position: relative;
 	justify-content: flex-start;
 }
@@ -108,7 +108,7 @@ nav a:hover {
 
 
 .text1, .text2, .text4 {
-	background-color: whitesmoke;
+	background-color: #F6F6F6;
 }
 
 .text1:hover, .text2:hover, .text4:hover {
@@ -144,10 +144,19 @@ nav a:hover {
 	background-color: #F6F6F6;
 }
 
-.article1 p {
-	padding: 0 100px;
+.article-1a p {
+	display: flex;
+	padding: 0 50px;
 	color: black;
 	font-size: 20px
+}
+
+.article-1b p {
+	display: flex;
+	align-items: flex-end;
+	padding: 80px;
+	color: lightgray;
+	font-size: 20px;
 }
 
 @media screen and (max-width: 990px) {
