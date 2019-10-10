@@ -95,6 +95,24 @@ nav a:hover {
 	align-items: flex-end;
 }
 
+.news-container {
+	margin-top: 100px;
+	margin-left: 61px;
+	width: 10%;
+	display: flex;
+	background-color: lightgray;
+}
+
+.news-title {
+	width: 85%;
+	color: black;
+}
+
+.news-title h5 {
+	width: 95%
+	border-bottom: 2px solid black;
+}
+
 @media screen and (max-width: 990px) {
 	.nav-links {
 		width: 40%;
