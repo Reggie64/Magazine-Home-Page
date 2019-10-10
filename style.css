@@ -96,20 +96,17 @@ nav a:hover {
 }
 
 .news-container {
-	margin-top: 100px;
+	margin-top: 20px;
 	margin-left: 61px;
-	width: 10%;
+	width: 90.3%;
 	display: flex;
 	background-color: lightgray;
 }
 
-.news-title {
-	width: 85%;
-	color: black;
-}
-
-.news-title h5 {
-	width: 95%
+.news-container h5 {
+	margin-left: 25px;
+	font-size: 35px;
+	width: 95%;
 	border-bottom: 2px solid black;
 }
 
