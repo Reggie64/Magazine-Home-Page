@@ -87,7 +87,13 @@ nav a:hover {
 
 .left {
 	align-items: flex-start;
+	font-size: 15px;
 
+}
+
+
+.text1, .text2, .text4 {
+	background-color: whitesmoke;
 }
 
 .right {
@@ -108,6 +114,14 @@ nav a:hover {
 	font-size: 35px;
 	width: 95%;
 	border-bottom: 2px solid black;
+}
+
+.article1 {
+	margin-left: 61px;
+	padding: 0 15px;
+	width: 90.3%;
+	display: flex;
+	background-color: lightgray;
 }
 
 @media screen and (max-width: 990px) {
