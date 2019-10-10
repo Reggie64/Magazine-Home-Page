@@ -80,6 +80,14 @@ nav a:hover {
 	color: black;
 }
 
+.left-top img, .left-btm img, .right img {
+  transition: transform .5s ease;
+}
+
+.left-top:hover img, .left-btm:hover img, .right:hover img {
+	transform: scale(0.9);
+}
+
 .title h1 {
 	width: 95%;
 	border-bottom: 2px solid black;
@@ -94,6 +102,10 @@ nav a:hover {
 
 .text1, .text2, .text4 {
 	background-color: whitesmoke;
+}
+
+.text1:hover, .text2:hover, .text4:hover {
+	color: grey;
 }
 
 .right {
@@ -122,6 +134,12 @@ nav a:hover {
 	width: 90.3%;
 	display: flex;
 	background-color: lightgray;
+}
+
+.article1 p {
+	padding: 0 100px;
+	color: black;
+	font-size: 20px
 }
 
 @media screen and (max-width: 990px) {
