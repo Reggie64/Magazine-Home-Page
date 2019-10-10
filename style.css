@@ -72,7 +72,6 @@ nav a:hover {
 .container {
 	width: 10%;
 	display: flex;
-	background-color: lightgray;
 }
 
 .title {
@@ -84,8 +83,12 @@ nav a:hover {
   transition: transform .5s ease;
 }
 
-.left-top:hover img, .left-btm:hover img, .right:hover img {
+.left-top:hover img, .left-btm:hover img {
 	transform: scale(0.9);
+}
+
+.right:hover img {
+	transform: scale(0.95);
 }
 
 .title h1 {
@@ -96,7 +99,6 @@ nav a:hover {
 .left {
 	align-items: flex-start;
 	font-size: 15px;
-
 }
 
 
@@ -118,7 +120,6 @@ nav a:hover {
 	margin-left: 61px;
 	width: 90.3%;
 	display: flex;
-	background-color: lightgray;
 }
 
 .news-container h5 {
@@ -133,7 +134,6 @@ nav a:hover {
 	padding: 0 15px;
 	width: 90.3%;
 	display: flex;
-	background-color: lightgray;
 }
 
 .article1 p {
