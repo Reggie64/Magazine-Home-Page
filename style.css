@@ -195,12 +195,27 @@ nav a:hover {
 	padding: 100px;
 	color: lightgray;
 	font-size: 20px;
+	z-index: -1;
+}
+
+.more-btn {
+	z-index: 99999;
+	width: 90.3%;
+	margin-top: 800px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+
+.more-btn a {
+	font-size: 24px;
+	color: lightgray;
 }
 
 .style-one {
 	position: relative;
 	z-index: 9999;
-
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
@@ -219,21 +234,9 @@ nav a:hover {
 	position: relative;
 	margin-top: 250px;
     border: 0;
+    z-index: 9991;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-.more-btn {
-	z-index: 99999;
-	width: 90.3%;
-	margin: auto;
-	display: flex;
-	justify-content: center;
-	background-color: #F6F6F6;
-}
-
-.more-btn a {
-	color: lightgray;
 }
 
 .vid-container {
@@ -247,9 +250,15 @@ nav a:hover {
 .vid-title h6{
 	margin: auto;
 	font-size: 30px;
-
 }
 
+.vid {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 200px 0 20px;
+}
 
 @media screen and (max-width: 780px) {
 	body {
