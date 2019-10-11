@@ -217,7 +217,6 @@ nav a:hover {
 
 .style-three {
 	position: relative;
-	z-index: 9999;
 	margin-top: 250px;
     border: 0;
     height: 1px;
@@ -225,6 +224,7 @@ nav a:hover {
 }
 
 .more-btn {
+	z-index: 99999;
 	width: 90.3%;
 	margin: auto;
 	display: flex;
@@ -241,10 +241,13 @@ nav a:hover {
 	margin: auto;
 	justify-content: flex-start;
 	background-color: #F6F6F6;
+	width: 90.3%;
 }
 
 .vid-title h6{
 	margin: auto;
+	font-size: 30px;
+
 }
 
 
