@@ -168,6 +168,22 @@ nav a:hover {
 	font-size: 20px;
 }
 
+.article1 img {
+  transition: transform .5s ease;
+}
+
+.article1:hover img {
+	transform: scale(0.9);
+}
+
+.article2 img {
+  transition: transform .5s ease;
+}
+
+.article2:hover img {
+	transform: scale(0.9);
+}
+
 .article2 {
 	position: absolute;
 	text-decoration: none;
@@ -290,6 +306,30 @@ nav a:hover {
 	display: flex;
 	color: white;
 	font-size: 30px;
+}
+
+.subscribe {
+	margin: auto;
+	width: 25%;
+}
+
+.subscribe img {
+	justify-content: flex-start;
+	margin-top: 20px;
+	margin-left: 30px;
+	transition: transform .5s ease;
+}
+
+.subscribe img:hover {
+	transform: scale(0.9);
+}
+
+.subscribe a {
+	font-size: 24px;
+	color:  #444;
+	display: flex;
+	justify-content: center;
+	padding: 10px 160px;
 }
 
 @media screen and (max-width: 780px) {
