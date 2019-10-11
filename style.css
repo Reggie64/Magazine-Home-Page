@@ -224,6 +224,12 @@ nav a:hover {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+.more-btn {
+	display: flex;
+	justify-content: center;
+	background-color: #F6F6F6;
+}
+
 @media screen and (max-width: 780px) {
 	body {
 		overflow-x: hidden;
