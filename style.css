@@ -213,6 +213,14 @@ nav a:hover {
 	color: lightgray;
 }
 
+.style-zero {
+	position: relative;
+	z-index: 9999;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 .style-one {
 	position: relative;
 	z-index: 9999;
@@ -247,17 +255,23 @@ nav a:hover {
 	width: 90.3%;
 }
 
+.vid-length {
+	width: 30%
+}
+
 .vid-title h6{
 	margin: auto;
 	font-size: 30px;
+	border-bottom: 2px solid black;
 }
 
 .vid {
 	margin: auto;
+	margin-top: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 200px 0 20px;
+	padding: 0px 30px 0 0px;
 }
 
 @media screen and (max-width: 780px) {
