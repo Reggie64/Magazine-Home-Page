@@ -225,9 +225,15 @@ nav a:hover {
 }
 
 .more-btn {
+	width: 90.3%;
+	margin: auto;
 	display: flex;
 	justify-content: center;
 	background-color: #F6F6F6;
+}
+
+.more-btn a {
+	color: lightgray;
 }
 
 @media screen and (max-width: 780px) {
