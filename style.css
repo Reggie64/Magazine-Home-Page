@@ -236,6 +236,18 @@ nav a:hover {
 	color: lightgray;
 }
 
+.vid-container {
+	display: flex;
+	margin: auto;
+	justify-content: flex-start;
+	background-color: #F6F6F6;
+}
+
+.vid-title {
+	margin: auto;
+}
+
+
 @media screen and (max-width: 780px) {
 	body {
 		overflow-x: hidden;
