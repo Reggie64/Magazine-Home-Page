@@ -55,7 +55,7 @@ nav a:hover {
 .burger div {
 	width: 25px;
 	height: 3px;
-	background-color: white;
+	background-color: black;
 	margin: 5px;
 }
 
@@ -158,7 +158,7 @@ nav a:hover {
 	width: 500%;
 }
 
-.article-1b a {
+.article-1b p {
 	text-decoration: none;
 	display: flex;
 	align-items: flex-end;
@@ -166,6 +166,7 @@ nav a:hover {
 	padding: 100px;
 	color: lightgray;
 	font-size: 20px;
+	margin-bottom: 10px;
 }
 
 .article1 img {
@@ -203,7 +204,7 @@ nav a:hover {
 	width: 500%;
 }
 
-.article-2b a {
+.article-2b p {
 	text-decoration: none;
 	display: flex;
 	align-items: flex-end;
@@ -212,6 +213,7 @@ nav a:hover {
 	color: lightgray;
 	font-size: 20px;
 	z-index: -1;
+	margin-top:10px;
 }
 
 .more-btn {
@@ -306,6 +308,7 @@ nav a:hover {
 	display: flex;
 	color: white;
 	font-size: 30px;
+	justify-content: center;
 }
 
 .subscribe {
@@ -348,6 +351,7 @@ nav a:hover {
 		transform: translateX(100%);
 		transition: transform 0.5s ease-in;
 		color: white;
+		z-index: 999999;
 	}
 
 	.nav-links li {
