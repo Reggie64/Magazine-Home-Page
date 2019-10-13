@@ -299,12 +299,17 @@ nav a:hover {
 	margin-left: 8px;
 }
 
+.social li {
+	list-style-type: none;
+	display: inline;
+}
+
 .sponsor {
 	background-color: black;
 	height: 10vh;
 }
 
-.sponsor h7 {
+.sponsor p {
 	padding: 25px;
 	display: flex;
 	color: white;
