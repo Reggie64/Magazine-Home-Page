@@ -294,9 +294,8 @@ nav a:hover {
 
 .social {
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	margin-left: 8px;
+	margin-left: 565px;
 }
 
 .social li {
@@ -318,27 +317,34 @@ nav a:hover {
 }
 
 .subscribe {
-	margin: auto;
-	width: 25%;
-}
-
-.subscribe img {
-	justify-content: flex-start;
-	margin-top: 20px;
-	margin-left: 43px;
-	transition: transform .5s ease;
-}
-
-.subscribe img:hover {
-	transform: scale(0.9);
-}
-
-.subscribe a {
-	font-size: 24px;
-	color:  #444;
+	margin: 0 auto;
 	display: flex;
 	justify-content: center;
-	padding: 10px 165px;
+	align-content: center;
+}
+.subscribe .show {
+	display: none;
+	position: absolute;
+	z-index: 99;
+}
+
+.subscribe:hover .show {
+	display: inline;
+}
+
+.subscribe-btn {
+	margin: auto 0;
+	margin-left: 400px;
+	width: 35%;
+	background-color:#F6F6F6;
+	display: flex;
+	justify-content: center;
+	color: #444;
+	font-size: 32px;
+}
+
+.subscribe-btn a {
+	color: #444;
 }
 
 @media screen and (max-width: 780px) {
