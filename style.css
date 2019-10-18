@@ -120,11 +120,30 @@ nav a:hover {
 	align-items: flex-end;
 }
 
+.text2, .text1 {
+	background-color: lavender;
+}
+
+.text4 {
+	background-color: lavender;
+	padding: 15px;
+}
+
+.text4 h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
 .news-container {
 	margin-left: 61px;
 	width: 90.3%;
 	display: flex;
 	background-color: #F6F6F6;
+}
+
+.news-title {
+	font-family: 'Montserrat', sans-serif;
+	margin: 2%;
 }
 
 .news-container h5 {
@@ -266,6 +285,7 @@ nav a:hover {
 }
 
 .vid-length {
+	margin: 3%;
 	width: 30%
 }
 
