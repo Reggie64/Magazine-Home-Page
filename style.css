@@ -64,7 +64,8 @@ nav a:hover {
 	margin: 3%;
 	width: 90%;
 	display: flex;
-	background-color: white
+	background-color: white;
+	height: 0%;
 }
 
 .title {
@@ -75,11 +76,11 @@ nav a:hover {
   transition: transform .5s ease;
 }
 
-.left-top:hover img, .left-btm:hover img {
+.left-top:hover img, .left-btm:hover img, .left-btm:hover, .left-top:hover {
 	transform: scale(0.9);
 }
 
-.right:hover img {
+.right:hover img, .right-container:hover {
 	transform: scale(0.95);
 }
 
