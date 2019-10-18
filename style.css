@@ -61,7 +61,7 @@ nav a:hover {
 }
 
 .value-container {
-	margin: 5%;
+	margin: 3%;
 	width: 90%;
 	display: flex;
 	background-color: white
@@ -121,11 +121,11 @@ nav a:hover {
 }
 
 .text2, .text1 {
-	background-color: lavenderblush;
+	background-color: lightgrey;
 }
 
 .text4 {
-	background-color: lavenderblush;
+	background-color: lightgrey;
 	padding: 15px;
 }
 
@@ -135,7 +135,7 @@ nav a:hover {
 }
 
 .news-container {
-	margin-left: 61px;
+	margin: 3%;
 	width: 90.3%;
 	display: flex;
 	background-color: white;
@@ -230,8 +230,8 @@ nav a:hover {
 .more-btn {
 	z-index: 99999;
 	width: 90.3%;
-	margin-top: 800px;
-	margin: auto;
+	margin-top: 23%;
+	padding: 0 650px;
 	display: flex;
 	justify-content: center;
 	background-color: white;
@@ -269,9 +269,7 @@ nav a:hover {
 
 .style-three {
 	position: relative;
-	margin-top: 250px;
     border: 0;
-    z-index: 9991;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
@@ -285,7 +283,7 @@ nav a:hover {
 }
 
 .vid-length {
-	margin: 3%;
+	margin: 1%;
 	width: 30%
 }
 
@@ -296,7 +294,7 @@ nav a:hover {
 }
 
 .vid {
-	margin: auto;
+	margin: 1%;
 	margin-top: 20px;
 	display: flex;
 	justify-content: center;
